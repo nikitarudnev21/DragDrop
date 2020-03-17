@@ -1,0 +1,10 @@
+C:\Users\Nikita\source\repos\RudnevDragProject\bin\Debug\RudnevDragProject.exe.config
+C:\Users\Nikita\source\repos\RudnevDragProject\bin\Debug\RudnevDragProject.exe
+C:\Users\Nikita\source\repos\RudnevDragProject\bin\Debug\RudnevDragProject.pdb
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.csprojAssemblyReference.cache
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.Properties.Resources.resources
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.csproj.GenerateResource.cache
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.csproj.CoreCompileInputs.cache
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.exe
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.pdb
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.lblMiliSecond.resources
