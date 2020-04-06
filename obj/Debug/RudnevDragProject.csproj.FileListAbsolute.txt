@@ -7,4 +7,4 @@ C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.cspro
 C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.csproj.CoreCompileInputs.cache
 C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.exe
 C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.pdb
-C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.lblMiliSecond.resources
+C:\Users\Nikita\source\repos\RudnevDragProject\obj\Debug\RudnevDragProject.Form1.resources

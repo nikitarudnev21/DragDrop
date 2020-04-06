@@ -16,7 +16,7 @@ namespace RudnevDragProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lblMiliSecond());
+            Application.Run(new Game());
         }
     }
 }

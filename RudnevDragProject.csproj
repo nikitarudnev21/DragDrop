@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,16 +49,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Ext.cs" />
+    <Compile Include="Game.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOK.Designer.cs">
+      <DependentUpon>frmOK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmYesNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYesNo.Designer.cs">
+      <DependentUpon>frmYesNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialMessageBox.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOK.resx">
+      <DependentUpon>frmOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYesNo.resx">
+      <DependentUpon>frmYesNo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,6 +90,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -205,6 +229,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\svar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\win.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\svar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trophy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

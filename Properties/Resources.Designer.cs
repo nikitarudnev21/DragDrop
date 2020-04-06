@@ -491,6 +491,16 @@ namespace RudnevDragProject.Properties {
         }
         
         /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap left {
+            get {
+                object obj = ResourceManager.GetObject("left", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Поиск локализованного ресурса типа System.Byte[].
         /// </summary>
         internal static byte[] Link {
@@ -543,9 +553,49 @@ namespace RudnevDragProject.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap right {
+            get {
+                object obj = ResourceManager.GetObject("right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap svar {
             get {
                 object obj = ResourceManager.GetObject("svar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap svar1 {
+            get {
+                object obj = ResourceManager.GetObject("svar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tar {
+            get {
+                object obj = ResourceManager.GetObject("tar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tar1 {
+            get {
+                object obj = ResourceManager.GetObject("tar1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -557,6 +607,16 @@ namespace RudnevDragProject.Properties {
             get {
                 object obj = ResourceManager.GetObject("Text", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trophy {
+            get {
+                object obj = ResourceManager.GetObject("trophy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -577,6 +637,16 @@ namespace RudnevDragProject.Properties {
             get {
                 object obj = ResourceManager.GetObject("Vertical", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap win {
+            get {
+                object obj = ResourceManager.GetObject("win", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
