@@ -21,9 +21,6 @@ namespace RudnevDragProject
         Random rnd = new Random();
         Pen penGreen = new Pen(Color.ForestGreen, 2);
         Pen penRed = new Pen(Color.Tomato, 2);
-        Image a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, c1, c2, c3, c4, c5, c6, d1, d2, d3,
-        d4, d5, d6, e1, e2, e3, e4, e5, e6, f1, f2, f3, f4, f5, f6;
-        List<int> imgnext = new List<int>();
         List<Image> listright = new List<Image>();
         List<Image> fullist = new List<Image>();
         List<Image> dragreturn = new List<Image>();
@@ -34,8 +31,6 @@ namespace RudnevDragProject
         List<Image> moveBackImg2 = new List<Image>();
         List<Image> moveForwardImg1 = new List<Image>();
         List<Image> moveForwardImg2 = new List<Image>();
-        List<Image> downImg = new List<Image>();
-        List<PictureBox> downPic = new List<PictureBox>();
         List<PictureBox> fullistpic = new List<PictureBox>();
         List<PictureBox> listBoxright = new List<PictureBox>();
         List<PictureBox> picdraglist = new List<PictureBox>();
@@ -49,12 +44,9 @@ namespace RudnevDragProject
         public Game()
         {
             InitializeComponent();
-            imgnext.AddRange(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-                20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, });
+        /*    for (int i = 0; i <= 8; i++, fullist.Add(Image.FromFile($"C:/Users/Nikita/source/repos/RudnevDragProject/Resources/image_part_00{i}.jpg"))) { }
         /*    for (int i = 0; i <= 8; i++, fullist.Add(Image.FromFile($"C:/Users/Nikita/source/repos/RudnevDragProject/Resources/image_part_00{i}.jpg"))) { }
             for (int i = 9; i <= 35; i++, fullist.Add(Image.FromFile($"C:/Users/Nikita/source/repos/RudnevDragProject/Resources/image_part_0{i}.jpg"))) { }*/
-            Image[] im = new Image[] { a1, a2, a3, a4, a5, a6, b1, b2, b3, b4, b5, b6, c1, c2, c3, c4, c5, c6, d1, d2, d3,
-            d4, d5, d6, e1, e2, e3, e4, e5, e6, f1, f2, f3, f4, f5, f6};
             for (int i = 0; i <= 8; i++, fulllistimage.Add(Image.FromFile(folder + $"\\image_part_00{i}.jpg"))) { }
             for (int i = 9; i <= 35; i++, fulllistimage.Add(Image.FromFile(folder + $"\\image_part_0{i}.jpg"))) { }
             listright.AddRange(fulllistimage);
@@ -352,8 +344,6 @@ namespace RudnevDragProject
                         picdraglist.Add(pictureBox);
                         picdragleaveenter.Add(pictureBox);
                         moveBackBox1.Add(pictureBox);
-                        downImg.Add(pictureBox.Image);
-                        downPic.Add(pictureBox);
                         pictureBox.DoDragDrop(imageget.Last(), DragDropEffects.Move);
                     }
                     else

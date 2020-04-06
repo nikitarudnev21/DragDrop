@@ -229,9 +229,8 @@
             this.lblMinute.Font = new System.Drawing.Font("Castellar", 16F, System.Drawing.FontStyle.Bold);
             this.lblMinute.Location = new System.Drawing.Point(118, 25);
             this.lblMinute.Name = "lblMinute";
-            this.lblMinute.Size = new System.Drawing.Size(18, 26);
+            this.lblMinute.Size = new System.Drawing.Size(0, 26);
             this.lblMinute.TabIndex = 7;
-            this.lblMinute.Text = ".";
             // 
             // lblSecond
             // 
@@ -239,9 +238,8 @@
             this.lblSecond.Font = new System.Drawing.Font("Castellar", 16F, System.Drawing.FontStyle.Bold);
             this.lblSecond.Location = new System.Drawing.Point(179, 25);
             this.lblSecond.Name = "lblSecond";
-            this.lblSecond.Size = new System.Drawing.Size(18, 26);
+            this.lblSecond.Size = new System.Drawing.Size(0, 26);
             this.lblSecond.TabIndex = 8;
-            this.lblSecond.Text = ".";
             // 
             // lblMili
             // 
@@ -249,9 +247,8 @@
             this.lblMili.Font = new System.Drawing.Font("Comic Sans MS", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lblMili.Location = new System.Drawing.Point(228, 23);
             this.lblMili.Name = "lblMili";
-            this.lblMili.Size = new System.Drawing.Size(20, 27);
+            this.lblMili.Size = new System.Drawing.Size(0, 27);
             this.lblMili.TabIndex = 9;
-            this.lblMili.Text = ".";
             // 
             // panelTop
             // 
@@ -369,9 +366,8 @@
             this.lblMoves.Font = new System.Drawing.Font("Castellar", 16F, System.Drawing.FontStyle.Bold);
             this.lblMoves.Location = new System.Drawing.Point(439, 25);
             this.lblMoves.Name = "lblMoves";
-            this.lblMoves.Size = new System.Drawing.Size(18, 26);
+            this.lblMoves.Size = new System.Drawing.Size(0, 26);
             this.lblMoves.TabIndex = 11;
-            this.lblMoves.Text = ".";
             // 
             // ProgBar
             // 
